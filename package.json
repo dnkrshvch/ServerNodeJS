@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Dev",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnkrshvch/ServerNode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dnkrshvch/ServerNode/issues"
+  },
+  "homepage": "https://github.com/dnkrshvch/ServerNode#readme",
+  "description": ""
+}

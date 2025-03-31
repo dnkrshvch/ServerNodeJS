@@ -1,11 +1,10 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+    "dev": "nodemon _app.js"
   },
   "keywords": [],
   "author": "Dev",
@@ -14,16 +13,16 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "nodemon": "^3.1.9",
+    "pg": "^8.13.3",
     "winston": "^3.17.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dnkrshvch/ServerNode.git"
+    "url": "git+https://github.com/dnkrshvch/ServerNodeJS.git"
   },
   "bugs": {
-    "url": "https://github.com/dnkrshvch/ServerNode/issues"
+    "url": "https://github.com/dnkrshvch/ServerNodeJS/issues"
   },
-  "homepage": "https://github.com/dnkrshvch/ServerNode#readme",
+  "homepage": "https://github.com/dnkrshvch/ServerNodeJS#readme",
   "description": ""
 }
